@@ -5,12 +5,4 @@ class User
   
   end
   
-  def new()
-    @knowledge = []
-  end
-  
-  def learn(s)
-    @knowledge << s
-  end
-  
 end
